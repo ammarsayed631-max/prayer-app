@@ -103,4 +103,7 @@
   </div>
 
 </body>
+<script>
+alert("الموقع شغال!");
+</script>
 </html>

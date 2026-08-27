@@ -1,93 +1,27 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>مواقيت الصلاة</title>
-
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: linear-gradient(180deg, #101b3d, #31558a);
-      color: white;
-      text-align: center;
-    }
-
-    .container {
-      max-width: 700px;
-      margin: auto;
-      padding: 40px 20px;
-    }
-
-    h1 {
-      font-size: 38px;
-    }
-
-    .subtitle {
-      font-size: 18px;
-      margin-bottom: 30px;
-    }
-
-    .prayer {
-      background: rgba(255,255,255,0.15);
-      margin: 12px 0;
-      padding: 20px;
-      border-radius: 18px;
-      display: flex;
-      justify-content: space-between;
-      font-size: 20px;
-    }
-
-    .next {
-      margin-top: 25px;
-      padding: 20px;
-      border-radius: 18px;
-      background: rgba(255,255,255,0.2);
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>مواقيت الصلاة</title>
+<style>
+body{margin:0;font-family:Arial,sans-serif;background:linear-gradient(180deg,#101b3d,#31558a);color:white;text-align:center}
+.container{max-width:700px;margin:auto;padding:40px 20px}
+h1{font-size:38px}
+.prayer{background:rgba(255,255,255,.15);margin:12px 0;padding:20px;border-radius:18px;display:flex;justify-content:space-between;font-size:20px}
+.next{margin-top:25px;padding:20px;border-radius:18px;background:rgba(255,255,255,.2)}
+</style>
 </head>
-
 <body>
-
-  <div class="container">
-
-    <h1>🕌 مواقيت الصلاة</h1>
-
-    <div class="subtitle">
-      حافظ على صلاتك ❤️
-    </div>
-
-    <div class="prayer">
-      <span>🌙 الفجر</span>
-      <span>04:30</span>
-    </div>
-
-    <div class="prayer">
-      <span>☀️ الظهر</span>
-      <span>12:00</span>
-    </div>
-
-    <div class="prayer">
-      <span>🌤️ العصر</span>
-      <span>03:30</span>
-    </div>
-
-    <div class="prayer">
-      <span>🌅 المغرب</span>
-      <span>06:30</span>
-    </div>
-
-    <div class="prayer">
-      <span>🌙 العشاء</span>
-      <span>08:00</span>
-    </div>
-
-    <div class="next">
-      الصلاة القادمة: <strong>المغرب</strong>
-    </div>
-
-  </div>
-
+<div class="container">
+<h1>🕌 مواقيت الصلاة</h1>
+<p>حافظ على صلاتك ❤️</p>
+<div class="prayer"><span>🌙 الفجر</span><span>04:30</span></div>
+<div class="prayer"><span>☀️ الظهر</span><span>12:00</span></div>
+<div class="prayer"><span>🌤️ العصر</span><span>03:30</span></div>
+<div class="prayer"><span>🌅 المغرب</span><span>06:30</span></div>
+<div class="prayer"><span>🌙 العشاء</span><span>08:00</span></div>
+<div class="next">الصلاة القادمة: <strong>المغرب</strong></div>
+</div>
 </body>
 </html>

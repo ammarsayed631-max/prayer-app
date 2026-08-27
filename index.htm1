@@ -9,10 +9,9 @@
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background: linear-gradient(#101b3d, #253b70);
+      background: linear-gradient(180deg, #101b3d, #31558a);
       color: white;
       text-align: center;
-      min-height: 100vh;
     }
 
     .container {
@@ -23,22 +22,16 @@
 
     h1 {
       font-size: 38px;
-      margin-bottom: 10px;
     }
 
     .subtitle {
       font-size: 18px;
-      opacity: 0.8;
       margin-bottom: 30px;
     }
 
-    .prayers {
-      display: grid;
-      gap: 15px;
-    }
-
     .prayer {
-      background: rgba(255, 255, 255, 0.12);
+      background: rgba(255,255,255,0.15);
+      margin: 12px 0;
       padding: 20px;
       border-radius: 18px;
       display: flex;
@@ -47,10 +40,10 @@
     }
 
     .next {
-      margin-top: 30px;
+      margin-top: 25px;
       padding: 20px;
-      background: rgba(255, 255, 255, 0.18);
       border-radius: 18px;
+      background: rgba(255,255,255,0.2);
     }
   </style>
 </head>
@@ -65,45 +58,36 @@
       حافظ على صلاتك ❤️
     </div>
 
-    <div class="prayers">
+    <div class="prayer">
+      <span>🌙 الفجر</span>
+      <span>04:30</span>
+    </div>
 
-      <div class="prayer">
-        <span>🌙 الفجر</span>
-        <span>04:30</span>
-      </div>
+    <div class="prayer">
+      <span>☀️ الظهر</span>
+      <span>12:00</span>
+    </div>
 
-      <div class="prayer">
-        <span>☀️ الظهر</span>
-        <span>12:00</span>
-      </div>
+    <div class="prayer">
+      <span>🌤️ العصر</span>
+      <span>03:30</span>
+    </div>
 
-      <div class="prayer">
-        <span>🌤️ العصر</span>
-        <span>03:30</span>
-      </div>
+    <div class="prayer">
+      <span>🌅 المغرب</span>
+      <span>06:30</span>
+    </div>
 
-      <div class="prayer">
-        <span>🌅 المغرب</span>
-        <span>06:30</span>
-      </div>
-
-      <div class="prayer">
-        <span>🌙 العشاء</span>
-        <span>08:00</span>
-      </div>
-
+    <div class="prayer">
+      <span>🌙 العشاء</span>
+      <span>08:00</span>
     </div>
 
     <div class="next">
       الصلاة القادمة: <strong>المغرب</strong>
-      <br><br>
-      باقي على الصلاة: <strong>01:25:30</strong>
     </div>
 
   </div>
 
 </body>
-
-
-
 </html>
